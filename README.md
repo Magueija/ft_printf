@@ -61,9 +61,10 @@ The field **precision** is also a number, preceded with a point. For diuox conve
 
 Run the command `make` to create the **libftprintf.a** library file located in the *bin* folder. See the exemple bellow :
 ```
+git clone --recursive https://github.com/Magueija/ft_printf.git
 cd ft_printf
 make
-gcc -I./libft/include -I./include/ -L./bin/ -lftprintf main.c -o test
+gcc -I./libft/include -I./include/ -L./bin/ -lftprintf <your-file.c> -o test
 ```
 
 <br />
